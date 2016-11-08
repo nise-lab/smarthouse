@@ -10,6 +10,7 @@
 
 import json
 import os
+import datetime
 from functools import wraps
 from flask import Flask, abort, request, render_template, url_for, jsonify, send_from_directory
 
@@ -50,7 +51,8 @@ def consumes(content_type):
 @app.route("/")
 def index():
     sections = house.get_section_contents(sorted_mode=True)
-    return render_template('index.html', sections=sections)
+    year = datetime.date.today().year
+    return render_template('index.html', sections=sections, year=year)
 
 @app.route("/sections")
 def show_sections():
