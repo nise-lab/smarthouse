@@ -1,0 +1,44 @@
+{
+	"room": {
+		"message_name": "部屋の照明",
+		"priority": "0",
+		"conditions": {
+			"brighter":	{
+			  "message_name": "明るめ", "io_part_statuses": {
+					"room_led1": "on"
+				}
+			},
+			"off":	{
+			  "message_name": "消灯", "io_part_statuses": {
+					"room_led1": "off"
+				}
+			}
+    }
+  },
+	"room2": {
+		"message_name": "部屋の照明",
+		"priority": "1",
+			"blinking":	{
+			  "message_name": "ぴかぴか", "io_part_statuses": {
+					"room_led2": "blinking"
+				}
+			}
+    }
+  },
+  "window": {
+		"message_name": "天窓",
+		"priority": "2",
+		"conditions": {
+			"open": {
+				"message_name": "開", "io_part_statuses": {
+					"window_servo": "0"
+				}
+			},
+			"close": {
+				"message_name": "閉", "io_part_statuses": {
+					"window_servo": "90"
+				}
+			}
+		}
+	}
+}

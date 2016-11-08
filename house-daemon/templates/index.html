@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% import 'house-section.html' as house_section %}
+{% block body %}
+<div id="wrap">
+<!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron" id="header">
+    <div class="container">
+      <h2>スマートハウス</h2>
+      <p>を操作するページ</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- <div class="alert alert-danger" role="alert">
+      非常に反応が遅いですが、ご了承ください。（連打しないでね！）
+    </div> -->
+    <!-- Example row of columns -->
+    <div class="row">
+      {% for name, section in sections.items() %}
+        {{ house_section.content(name, section) }}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

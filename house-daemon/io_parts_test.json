@@ -1,0 +1,5 @@
+{
+	"room_led1":		   {"type": "light", "id": 18 },
+	"room_led2":		 {"type": "blink", "id": 18 },
+	"window_servo":  {"type": "servo", "id": 23 }
+}

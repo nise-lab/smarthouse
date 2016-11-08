@@ -1,0 +1,16 @@
+{% macro content(name, section) -%}
+<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h2 class="panel-title">{{ section.message_name }}</h2>
+    </div>
+    <div class="panel-body">
+      <div class="btn-group btn-group-lg pull-right">
+        {% for condition_name, condition in section.conditions.items() %}
+        <button id="{{ name }}-{{ condition_name }}" type="button" class="btn {% if section.current_condition == condition_name %}btn-danger{% else %}btn-default{% endif %}">{{ condition.message_name }}</button>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endmacro %}

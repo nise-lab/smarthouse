@@ -1,0 +1,148 @@
+{
+	"room": {
+		"message_name": "部屋の照明",
+		"priority": "0",
+		"conditions": {
+			"brighter":	{
+			  "message_name": "明るめ", "priority": "0", "io_part_statuses": {
+					"room_led1": "on", "room_led2": "on"
+				}
+			},
+			"bright": {
+				"message_name": "暗め",	"priority": "1", "io_part_statuses": {
+					"room_led1": "on", "room_led2": "off"
+				}
+			},
+			"off": {
+				"message_name": "切", "priority": "2", "io_part_statuses": {
+					"room_led1": "off", "room_led2": "off"
+				}
+			}
+		}
+	},
+	"bed": {
+		"message_name": "ベッド",
+		"priority": "1",
+		"conditions": {
+			"on":	{
+				"message_name": "入", "priority": "0", "io_part_statuses": {
+					"bed_led": "on"
+				}
+			},
+			"off": {
+				"message_name": "切", "priority": "1", "io_part_statuses": {
+					"bed_led": "off"
+				}
+			}
+		}
+	},
+	"tv": {
+		"message_name": "テレビ",
+		"priority": "3",
+		"conditions": {
+			"on":	{
+				"message_name": "入", "priority": "0", "io_part_statuses": {
+					"tv_led":"on"
+				}
+			},
+			"off": {
+				"message_name": "切", "priority": "1", "io_part_statuses": {
+					"tv_led":"off"
+				}
+			}
+		}
+	},
+	"air": {
+		"message_name": "エアコン",
+		"priority": "4",
+		"conditions": {
+			"on": {
+				"message_name": "入", "priority": "0", "io_part_statuses": {
+					"air_led":"on"
+				}
+			},
+			"off": {
+				"message_name": "切", "priority": "1", "io_part_statuses": {
+					"air_led":"off"
+				}
+			}
+		}
+	},
+	"doorlock": {
+		"message_name": "玄関のドア",
+		"priority": "5",
+		"conditions": {
+			"lock":		{
+				"message_name": "施錠", "priority": "0", "io_part_statuses": {
+					"doorlock_led1": "on",
+					"doorlock_led2": "off"
+				}
+			},
+			"unlock":	{
+				"message_name": "解錠", "priority": "1", "io_part_statuses": {
+					"doorlock_led1": "off",
+					"doorlock_led2": "on"
+				}
+			}
+		}
+	},
+	"garage": {
+		"message_name": "車庫の扉",
+		"priority": "6",
+		"conditions": {
+			"open": {
+				"message_name": "開", "priority": "0", "io_part_statuses": {
+					"garage_servo": "0"
+				}
+			},
+			"close": {
+				"message_name": "閉", "priority": "1", "io_part_statuses": {
+					"garage_servo": "90"
+				}
+			}
+		}
+	},
+	"car": {
+		"message_name": "車のエンジン",
+		"priority": "7",
+		"conditions": {
+			"start":	{
+				"message_name": "稼働", "priority": "0", "io_part_statuses": {
+					"car_led": "on"
+				}
+			},
+			"stop": {
+				"message_name": "停止", "priority": "1", "io_part_statuses": {
+					"car_led": "off"
+				}
+			}
+		}
+	},
+	"window": {
+		"message_name": "天窓",
+		"priority": "8",
+		"conditions": {
+			"open": {
+				"message_name": "開", "priority": "0", "io_part_statuses": {
+					"window_servo": "0"
+				}
+			},
+			"close": {
+				"message_name": "閉", "priority": "1", "io_part_statuses": {
+					"window_servo": "90"
+				}
+			}
+		}
+	},
+	"watering": {
+		"message_name": "水やり",
+		"priority": "19",
+		"conditions": {
+			"blinking":	{
+				"message_name": "やる", "priority": "0", "io_part_statuses": {
+					"watering_led": "blinking"
+				}
+			}
+		}
+	}
+}

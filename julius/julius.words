@@ -1,0 +1,44 @@
+スタンバイ      [standby]       s u t a N b a i
+キャンセル      [cancel]        ky a N s e r u
+解除            [cancel]        k a i j o
+でんきつけて    [room_brighter]        d e N k i ts u k e t e
+でんきをつけて  [room_brighter]        d e N k i o ts u k e t e
+でんき明るめ    [room_brighter]        d e N k i a k a r u m e
+でんき暗め      [room_bright]   d e N k i k u r a m e
+でんき消して    [room_off]  d e N k i k e sh i t e
+でんきを消して  [room_off]  d e N k i o k e sh i t e
+ベッドのでんきつけて    [bed_on]        b e q d o n o d e N k i ts u k e t e
+ベッドのでんき消して    [bed_off]       b e q d o n o d e N k i k e sh i t e
+テレビつけて    [tv_on] t e r e b i ts u k e t e
+テレビけして    [tv_off]        t e r e b i k e sh i t e
+エアコンつけて  [air_on]        e a k o N ts u k e t e
+エアコンけして  [air_off]       e a k o N k e sh i t e
+水をやって      [watering]      m i z u o y a q t e
+水やり          [watering]      m i z u y a r i
+玄関あけて      [doorlock_unlock]       g e N k a N a k e t e
+玄関をあけて    [doorlock_unlock]       g e N k a N o a k e t e
+玄関アンロック  [doorlock_unlock]       g e N k a N a N r o q k u
+鍵あけて        [doorlock_unlock]       k a g i a k e t e
+鍵をあけて      [doorlock_unlock]       k a g i o a k e t e
+玄関しめて      [doorlock_lock] g e N k a N sh i m e t e
+玄関をしめて      [doorlock_lock] g e N k a N o sh i m e t e
+玄関ロック      [doorlock_lock] g e N k a N r o q k u
+鍵しめて        [doorlock_lock] k a g i sh i m e t e
+鍵をしめて      [doorlock_lock] k a g i o sh i m e t e
+ガレージあけて  [garage_open]   g a r e: j i a k e t e
+ガレージをあけて[garage_open]   g a r e: o j i a k e t e
+車庫あけて      [garage_open]   sh a k o a k e t e
+車庫をあけて    [garage_open]   sh a k o o a k e t e
+ガレージしめて  [garage_close]  g a r e: j i sh i m e t e
+ガレージをしめて [garage_close]  g a r e: j i o sh i m e t e
+車庫しめて      [garage_close]  sh a k o sh i m e t e
+車庫をしめて    [garage_close]  sh a k o o sh i m e t e
+エンジンかけて  [car_start]     e N j i N k a k e t e
+エンジン止めて  [car_stop]      e N j i N t o m e t e
+窓開けて        [window_open]   m a d o a k e t e
+窓を開けて      [window_open]   m a d o o a k e t e
+天窓開けて      [window_open]   t e N m a d o a k e t e
+窓閉めて        [window_close]  m a d o sh i m e t e
+窓を閉めて      [window_close]  m a d o o sh i m e t e
+天窓閉めて      [window_close]  t e N m a d o sh i m e t e
+いまなんじ      [what_time]     i m a n a N j i

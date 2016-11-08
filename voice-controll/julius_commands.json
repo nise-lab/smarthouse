@@ -1,0 +1,92 @@
+{
+	"room_brighter" : {
+		"voice" : "でんきを明るくします",
+		"section" : "room",
+		"method" : "brighter"
+	},
+	"room_bright" : {
+		"voice" : "でんきを付けます",
+		"section" : "room",
+		"method" : "bright"
+	},
+	"room_off" : {
+		"voice" : "でんきを消します",
+		"section" : "room",
+		"method" : "off"
+	},
+	"bed_on" : {
+		"voice" : "ベッドのでんきをつけます",
+		"section" : "bed",
+		"method" : "on"
+	},
+	"bed_off" : {
+		"voice" : "ベッドのでんきを消します",
+		"section" : "bed",
+		"method" : "off"
+		},
+	"tv_on" : {
+		 "voice" : "テレビをつけます",
+		 "section" : "tv",
+		 "method" : "on"
+	 },
+	"tv_off" : {
+		 "voice" : "テレビを消します",
+		 "section" : "tv",
+		 "method" : "off"
+	 },
+	"air_on" : {
+		 "voice" : "エアコンをつけます",
+		 "section" : "air",
+		 "method" : "on"
+	 },
+	"air_off" : {
+		"voice" : "エアコンを消します",
+		"section" : "air",
+		"method" : "off"
+	},
+	"watering" : {
+		"voice" : "水をやります",
+		"section" : "watering",
+		"method" : "blinking"
+	},
+	"doorlock_unlock" :	{
+		"voice" : "玄関の鍵を開けます",
+		"section" : "doorlock",
+		"method" : "unlock"
+	},
+	"doorlock_lock" :	{
+		"voice" : "玄関の鍵を閉めます",
+		"section" : "doorlock",
+		"method" : "lock"
+	},
+	"garage_open" : {
+		"voice" : "車庫を開けます",
+		"section" : "garage",
+		"method" : "open"
+	},
+	"garage_close" : {
+		"voice" : "車庫を閉めます",
+		"section" : "garage",
+		"method" : "close"
+	},
+	"car_start" : {
+		"voice" : "エンジンを掛けます",
+		"section" : "car",
+		"method" : "start"
+	},
+	"car_stop" : {
+		 "voice" : "エンジンを止めます",
+		 "section" : "car",
+		 "method" : "stop"
+	 },
+	"window_open" : {
+		"voice" : "窓を開けます",
+		"section" : "window",
+		"method" : "open"
+	},
+	"window_close" : {
+		"voice" : "窓を閉めます",
+		"section" : "window",
+		"method" : "close"
+	}
+}

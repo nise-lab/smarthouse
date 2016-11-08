@@ -1,0 +1,13 @@
+{
+	"room_led1":		 { "type": "light", "id": 19 },
+	"room_led2":		 { "type": "light", "id": 13 },
+	"bed_led":			 { "type": "light", "id":  6 },
+	"tv_led":			   { "type": "light", "id": 26 },
+	"air_led":			 { "type": "light", "id": 25 },
+	"doorlock_led1": { "type": "light", "id": 20 },
+	"doorlock_led2": { "type": "light", "id": 21 },
+	"garage_servo":  { "type": "servo", "id": 16 },
+	"car_led":       { "type": "light", "id": 24 },
+	"window_servo":  { "type": "servo", "id": 12 },
+	"watering_led":  { "type": "blink", "id":  5 }
+}
